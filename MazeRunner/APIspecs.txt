@@ -2,8 +2,13 @@ ENDPOINT: https://mazerunnerapi.azurewebsites.net/api/
     
     ¡¡ IMPORTANT ¡¡
     for security reasons, all requests must have the parameter code at the end of the query, example:	
-    https://mazerunnerapi.azurewebsites.net/api/Maze?code=CTLH2JGw02ntEMlwXANzIegaNFGi/vSE34NSvgar5WYFb1x349z8jw==
-                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    
+    - Maze endpoint: 
+    	https://mazerunnerapi.azurewebsites.net/api/Maze?code=CTLH2JGw02ntEMlwXANzIegaNFGi/vSE34NSvgar5WYFb1x349z8jw==
+        	                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    - Game endpoint:
+    	https://mazerunnerapi.azurewebsites.net/api/Game/{mazeUid}/{gameUid}?code=bINetL5Vm7pVuoPm/SXIMi9Niv3D9DxpPQ8tDPbsyJ0J4KZfSQl/yA==	
+			         					     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Step 1) Create a new Maze
