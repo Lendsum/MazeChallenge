@@ -17,7 +17,7 @@ Junior:
   - starts a game
   - send random movements (avoiding walls) to try to reach the end of the maze.
   - set a 200 max movements.
-  - if end of the maze is reached, stop the execution with a "completed" message in console. If maze is not reached after the 200 max movements, stop the execution with a "not completed" message.
+  - if end of the maze is reached, stop the execution with a "completed" message in console. If end of maze is not reached after the 200 max movements, stop the execution with a "not completed" message.
 
 Senior:
 - Make a console app where automatically (without user interaction):
