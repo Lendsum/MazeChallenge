@@ -9,8 +9,17 @@ There is an API where you can:
 (see APISpecs.txt for more info about the API)
 
 
-In this test you have to choose one of two options.
+In this test you have to choose one of three options.
 
+Junior:
+- Make a console app where automatically (without user interaction):
+  - creates a maze of 5x5
+  - starts a game
+  - send random movements (avoiding walls) to try to reach the end of the maze.
+  - set a 200 max movements.
+  - if end of the maze is reached, stop the execution with a "completed" message in console. If maze is not reached after the 200 max movements, stop the execution with a "not completed" message.
+
+Senior:
 - Make a console app where automatically (without user interaction):
   - creates a maze of 25x25
   - starts a game
@@ -18,6 +27,7 @@ In this test you have to choose one of two options.
 
 OR 
 
+Senior:
 - Make a user interface where the user can:
   - generate a new maze, 
   - start a game inside the maze 
